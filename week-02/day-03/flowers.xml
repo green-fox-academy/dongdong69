@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<flowers>
+	<flower>
+		<id>1</id>
+		<name>Pretty Sneezeweed</name>
+		<color>Maroon</color>
+		<origin>Serbia</origin>
+	</flower>
+	<flower>
+		<id>2</id>
+		<name>Tryon's Woodsia</name>
+		<color>Khaki</color>
+		<origin>Portugal</origin>
+	</flower>
+	<flower>
+		<id>3</id>
+		<name>Sycamore Fig</name>
+		<color>Crimson</color>
+		<origin>Sweden</origin>
+	</flower>
+	<flower>
+		<id>4</id>
+		<name>Brown Bentgrass</name>
+		<color>Purple</color>
+		<origin>Philippines</origin>
+	</flower>
+	<flower>
+		<id>5</id>
+		<name>Rinodina Lichen</name>
+		<color>Red</color>
+		<origin>Nigeria</origin>
+	</flower>
+	<flower>
+		<id>6</id>
+		<name>Angelon</name>
+		<color>Khaki</color>
+		<origin>Luxembourg</origin>
+	</flower>
+	<flower>
+		<id>7</id>
+		<name>Nodding Beggartick</name>
+		<color>Violet</color>
+		<origin>Indonesia</origin>
+	</flower>
+	<flower>
+		<id>8</id>
+		<name>Encinitis False Willow</name>
+		<color>Pink</color>
+		<origin>Morocco</origin>
+	</flower>
+	<flower>
+		<id>9</id>
+		<name>Japanese Sweet Coltsfoot</name>
+		<color>Aquamarine</color>
+		<origin>Indonesia</origin>
+	</flower>
+	<flower>
+		<id>10</id>
+		<name>American Beachgrass</name>
+		<color>Orange</color>
+		<origin>Russia</origin>
+	</flower>
+	<flower>
+		<id>11</id>
+		<name>Clustered Lady's Mantle</name>
+		<color>Mauv</color>
+		<origin>China</origin>
+	</flower>
+	<flower>
+		<id>12</id>
+		<name>Beechdrops</name>
+		<color>Fuscia</color>
+		<origin>Australia</origin>
+	</flower>
+	<flower>
+		<id>13</id>
+		<name>Pamohe</name>
+		<color>Green</color>
+		<origin>South Korea</origin>
+	</flower>
+	<flower>
+		<id>14</id>
+		<name>Sharpscale Flatsedge</name>
+		<color>Goldenrod</color>
+		<origin>Portugal</origin>
+	</flower>
+	<flower>
+		<id>15</id>
+		<name>River Cyrtandra</name>
+		<color>Indigo</color>
+		<origin>Philippines</origin>
+	</flower>
+</flowers>
