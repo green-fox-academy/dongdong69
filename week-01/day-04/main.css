@@ -1,0 +1,114 @@
+.first{
+    width:250px;
+    height:100px;
+    margin: 20px;
+    border:5px solid green;
+    padding: 10px;
+    background:rgb(221, 156, 221);
+    
+    /* display: flex; 
+    justify-content: center;
+    align-items: Center; */
+}
+
+.textStyle{
+    font-size: 30px;
+    color: #032f62;
+}
+
+.exe2{
+    width:260px;
+    height: 410px;
+    background: rgb(67, 113, 199);
+    padding-left: 10px;
+    padding-top: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.box2{
+    width:250px;
+    height: 100px;
+    text-align:center;
+	line-height: 100px; 
+}
+
+.exe2text{
+    font-size: 30px;
+    color: white;
+}
+
+.center-in-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.e3div1{
+    width:260px;
+    height: 440px;
+}
+
+.e3div2{
+    width:260px;
+    height: 210px;
+    background: rgb(67, 113, 199);
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* display: table-cell;
+    text-align: center; */
+}
+
+.firstdiv{
+    width:280px;
+    height: auto;
+    background-image: url("the-duck.png");
+    background-color: rgb(255, 115, 0);
+    background-position: left;
+    background-size: 85px;
+    background-repeat: no-repeat;
+    margin-bottom: 7px;
+    padding: 4px;
+}
+
+.seconddiv{
+    width:280px;
+    height: auto;
+    background-image: url("the-duck.png");
+    background-color: rgb(63, 5, 102);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 7px;
+    padding: 4px;
+}
+
+.thirddiv{
+    width:280px;
+    height: auto;
+    background-image: url("the-duck.png");
+    background-color: gray;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 85px;
+    padding: 4px;
+}
+
+.rootdiv{
+    width:280px;
+    height: 620px;
+}
+
+.e5text{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
