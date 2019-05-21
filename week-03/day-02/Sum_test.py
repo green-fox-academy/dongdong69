@@ -18,9 +18,6 @@ class TestClassSum(unittest.TestCase):
     def test_one_element(self):
         self.assertEqual(sum([1]), 2)
 
-
-
-
 if __name__ == '__main__':
     unittest.main()
     
