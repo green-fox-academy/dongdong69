@@ -1,4 +1,4 @@
-def sum(numbers):
+def sum(numbers = []):
     result = 0
     for number in numbers:
         result += number
