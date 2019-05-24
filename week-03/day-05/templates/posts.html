@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        body {
+        background-color: hsl(213, 100%, 75%);
+        color: hsl(222, 53%, 19%);
+        }
+
+        a {
+        color: hsl(0, 0%, 17%);
+        opacity: .75;
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 3px;
+        }
+
+        a:hover {
+        opacity: 1;
+        background-color: hsl(0, 0%, 80%);
+        }
+    </style>
+</head>
+<body>
+        <h1>Posts</h1>
+
+        {% for post in posts %}
+        <article>
+            <h1 id="p{{post['id']}}">{{post['name']}}#{{post['id']}}<a hred="#p{{post['id']}}">¶</a></h1>
+                <p>{{post["content"]}}</p>
+                {% if post["liked"] %}
+                    <p>Liked by 
+                    {% for name in post["liked"]%} 
+                        {% if loop.first %}
+                            {{name}}
+                        {% else %}
+                            ,{{name}}
+                        {% endif %}
+                    {% endfor %}
+                    </p>
+                {% endif %}
+        </article>
+        {% endfor %}
+
+</body>
+</html>

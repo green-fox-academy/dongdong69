@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {% for artical in articles%}
+        <p>{{artical["content"] | truncate(225, true)}}</p>
+        
+        {% if artical["seen"]%}
+            <p>Seen by 
+            {% for name in artical["seen"]%}
+                {% if loop.first %}
+                    {{name}}
+                {% elif loop.last %}
+                    and {{name}}
+                {% else %}
+                    , {{name}}
+                {% endif %}
+            {% endfor %}
+            </p>
+        {% else %}
+            <p>No one has seen this article before.</p>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
