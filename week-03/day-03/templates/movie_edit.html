@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        .title_box{ 
+        width: 100%; 
+        overflow: hidden; 
+        display: flex; 
+        } 
+        .title_left{width: 100px;height: 40px;border: 1px solid red;float: left;} 
+        .title_right{width: 100px;height: 40px;border: 1px solid green;float: right;} 
+        .title_box input{width: 100%;}
+
+        .headerStyle{
+            background-color: rgb(68, 46, 46);
+            background-image:url("..\static\aperture.svg");
+            background-size: 50px;
+            background-repeat: no-repeat;
+            background-position: 15%;
+            height: 80px;
+            padding-top: 22px;
+        }
+
+        a{
+            color: pink;
+            font-size: 25px;
+            margin-right: 40px;
+        }
+
+        .textpostion{
+            margin-left: 13%;
+        }
+
+        .headStyle{
+            font-size: 50px;
+            margin-top: 5%;
+        }
+
+        .subHead{
+            font-size: 35px;
+            color: rgb(245, 136, 178);
+        }
+
+        .mainText{
+            font-size: 25px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        div{
+            margin-left: 13%;
+            margin-right: 13%;
+        }
+
+        .center-in-center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body background="..\static\topography.png">
+    <header class="headerStyle">
+        <p style="text-align: right; margin-right: 20px;">
+            <a href="/"> HOME</a>
+            <a href="/index"> WIKI</a>
+            <a href="/search"> SEARCH</a>
+            <a href="/login"> LOGIN</a>
+        </p>
+
+    </header>
+    
+    <div class="center-in-center title_box" >
+        <form action="/edit-movie/information" method="post">
+            <dl>
+                <div class="title_left"></div>
+                <dt>Title</dt>
+                <dd><input name="username1" type="text" value="{{movie.title}}"/></dd>
+                <dt>Year</dt>
+                <dd><input name="username1" type="text" value="{{movie.year}}"/></dd>
+                <dt>Genre</dt>
+                <dd><input name="username1" type="text" value="{{movie.genre}}"/></dd>
+                <dt>Description</dt>
+                <dd><input name="password1" type="text" value="{{movie.description}}" size=auto/></dd>
+                <dd><input type="submit" value="submit" /></dd>
+                <div class="title_right"></div>
+            </dl>
+        </form>
+    </div>
+
+</body>
+</html>

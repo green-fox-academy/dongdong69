@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Iron man",
+        "year": "2008",
+        "genre": "superhero",
+        "description": "The film follows Tony Stark (Robert Downey Jr.), an industrialist and master engineer who builds a powered exoskeleton after a life-threatening incident, and becomes the technologically advanced superhero Iron Man."
+    },
+    {
+        "id": 2,
+        "title": "movie title",
+        "year": "year of release",
+        "genre": "genre of the movie",
+        "description": "a short description"
+    }
+]
