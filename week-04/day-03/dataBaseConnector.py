@@ -5,7 +5,7 @@ class dataBaseConnector:
     #init database
     def __init__(self, database_name):
         self.connection = psycopg2.connect(
-            user="",
+            user="postgres",
             password="ccd9775301",
             host="127.0.0.1",
             port="5432",
