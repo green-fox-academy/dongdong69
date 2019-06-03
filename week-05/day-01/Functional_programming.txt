@@ -1,1 +1,27 @@
 1. What is functional programming?
+In functional programming, programs are executed by evaluating expressions, 
+in contrast with imperative programming where programs are composed of statements which change global state when executed. 
+Functional programming typically avoids using mutable state.
+
+2. What is immutability?
+Purely functional programs typically operate on immutable data. Instead of altering existing values, 
+altered copies are created and the original is preserved. 
+Since the unchanged parts of the structure cannot be modified, 
+they can often be shared between the old and new copies, which saves memory.
+
+3. What are side effects?
+Everything else besides getting the return values are side effects.
+
+4.What are higher-order functions?
+Higher-order functions (HOFs) are functions that take other functions as their arguments.
+f(g(x))
+
+5.What are anonymous functions?
+lambda
+
+6.What is lazy evaluation?
+Only evaluate when using it instead of when calling the function.
+
+7.What is a generator?
+A function with yield. It will not return all the result in one time.
+It will return the result everytime meet 'yield'. And keep the result waitting for the next calling.
