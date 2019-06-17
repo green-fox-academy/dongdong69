@@ -13,13 +13,15 @@ Requement:
 4. Train and test your data(day03).
 5. Interface(day04).
 6. What else I can do(day05):
-  - Data visualization?
+- Data visualization?
+- nlp?
+- computer version?
 
 ## Dataset
 ---
 - [gov.uk](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
-- [Zoopla](https://developer.zoopla.co.uk/)
-
+- [Zoopla](https://developer.zoopla.co.uk/)  
+It is good api for our project.
 ![image](powered-by-zoopla.png")
 
 ## Data Analysis
