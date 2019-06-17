@@ -1,11 +1,11 @@
 # Real-estimate Project
 ---
 Requement:
-<br \>
+<br />
 build a simple engine that helps home owners assess the value of their property. The engine will use a machine learning algorithm to determine the final figure.
-<br \>
+<br />
 To be more specific, you want to build this pilot phase for homeowners in the county of **Somerset, United Kingdom**.
-<br \>
+<br />
 - 
 ## Plan
 ---
