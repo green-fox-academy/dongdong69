@@ -20,9 +20,9 @@ Requement:
 ## Dataset
 ---
 - [gov.uk](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
-<br />
 Do not have enhough information.
 <br />
+---
 - [Zoopla](https://developer.zoopla.co.uk/)
 <br />
 It is good api for our project.
@@ -30,23 +30,33 @@ It is good api for our project.
 
 Which contaions:
 <br />
-- country
-- county
+- country : The country of the house
+- county : The county(somerset)
 - street
 - post_town
-- out_code
-- dersription
-- details of rooms
-- price
+- out_code : With the street name, post town and out_code we can find the house.
+- dersription : Dersrip how is the house looks like.
+- details of rooms : How many bedroom, floors, recepts, bathroom
+- latitude
+- longitude : With the latitude and longitude we can findout the spercific loc of the house.
+- new_home : Is it new?
+- price : The price of the house.
 
 <br />
-- url = f'http://api.zoopla.co.uk/api/v1/property_listings.js?zed_index=?&include_sold=1&page_number={page_number}&listing_status=sale&page_size=10&order_by=age&area=somerset&api_key=jwttfkz79asz2d9h8sms7tuu'
+- url = http://api.zoopla.co.uk/api/v1/property_listings.js?zed_index=?&include_sold=1&page_number=1&listing_status=sale&page_size=10&order_by=age&area=somerset&api_key=jwttfkz79asz2d9h8sms7tuu
 
 
 
 ## Data Preporcessing
 ---
+- Pick out the useful information
 - one-hot encode
+Using one-hot encode function to encode 'out_code', 'post_town' and 'street'
+
+## Data Visualization
+---
+- map
+Using map shows the price of different area.
 
 ## Thanks
 ---
