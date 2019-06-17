@@ -22,6 +22,6 @@ Requement:
 - [gov.uk](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
 - [Zoopla](https://developer.zoopla.co.uk/)  
 It is good api for our project.
-![image](powered-by-zoopla.png")
+![image](powered-by-zoopla.png)
 
 ## Data Analysis
