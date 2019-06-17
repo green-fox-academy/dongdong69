@@ -20,8 +20,29 @@ Requement:
 ## Dataset
 ---
 - [gov.uk](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
+<br />
+Do not have enhough information.
 - [Zoopla](https://developer.zoopla.co.uk/)  
 It is good api for our project.
-![image](powered-by-zoopla.png)
+Which contaions:
+- country
+- county
+- street
+- post_town
+- out_code
+- dersription
+- details of rooms
+- price
 
-## Data Analysis
+<br />
+- url = f'http://api.zoopla.co.uk/api/v1/property_listings.js?zed_index=?&include_sold=1&page_number={page_number}&listing_status=sale&page_size=10&order_by=age&area=somerset&api_key=jwttfkz79asz2d9h8sms7tuu'
+
+
+
+## Data Preporcessing
+---
+- one-hot encode
+
+## Thanks
+---
+![image](powered-by-zoopla.png)
