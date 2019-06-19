@@ -22,10 +22,9 @@ Requement:
 - [gov.uk](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
 Do not have enhough information.
 <br />
----
 - [Zoopla](https://developer.zoopla.co.uk/)
 <br />
-It is good api for our project.
+It is a good api for our project.
 <br />
 
 Which contaions:
@@ -57,6 +56,17 @@ Using one-hot encode function to encode 'out_code', 'post_town' and 'street'
 ---
 - map
 Using map shows the price of different area.
+
+## Data Modeling
+---
+- Regression
+- neural network
+- decision tree
+- nlp --> description
+
+## Data Analysis
+---
+
 
 ## Thanks
 ---
