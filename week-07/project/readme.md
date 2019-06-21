@@ -158,11 +158,11 @@ for error in self.errors:
 
 <center><b>The best result I get from liearn regression</b></center>
 
-<center><img src='result.png' style="width:750px"/></center>
+<center style="width:750px"><img src='result.png'/></center>
 
 <center><b>Error in 25% and others</b></center>
 
-<center><img src='meta-chart.png' style="width:750px"/></center>
+<center style="width:750px"><img src='meta-chart.png'/></center>
 
 ---
 
