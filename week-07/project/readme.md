@@ -33,7 +33,7 @@ Do not have enhough information.
 
 Advantage :
 
-    It is a good api for our project which contains address, rooms and price. Also, it is easy to set the time and place we want by api. It is really convenient. Realistic : Zoopla is a British company, focuses on providing users with access to information such as sold house prices, area trends & statistics and current value estimates for domestic properties in the UK (Reference from Wiki). And this api is provided by them.
+It is a good api for our project which contains address, rooms and price. Also, it is easy to set the time and place we want by api. It is really convenient. Realistic : Zoopla is a British company, focuses on providing users with access to information such as sold house prices, area trends & statistics and current value estimates for domestic properties in the UK (Reference from Wiki). And this api is provided by them.
 
 Disadvantage : 
 
@@ -92,11 +92,11 @@ Details about this api:
 
     So, here I use the most sample clustering method k-means to do it.
 
-        Reasons:
+    Reasons:
 
-            1. I have already denose before k-means.
+    1. I have already denose before k-means.
 
-            2. K-means preform quit good with location information.
+    2. K-means preform quit good with location information.
 
 - Log price
 
@@ -110,7 +110,7 @@ Details about this api:
 
     **Then, why log price?**
 
-        Log price is more like a normal distribution. And the loss function we use in linear regression is Least squares which is based on the normal distribution.
+    Log price is more like a normal distribution. And the loss function we use in linear regression is Least squares which is based on the normal distribution.
 
 
 ## Data Modeling
@@ -158,11 +158,11 @@ for error in self.errors:
 
 <center><b>The best result I get from liearn regression</b></center>
 
-<center><img src='result.png' style="width:750px"/ ></center>
+<center><img src='result.png' style="width:750px"/></center>
 
 <center><b>Error in 25% and others</b></center>
 
-<center><img src='meta-chart.png'/></center>
+<center><img src='meta-chart.png' style="width:750px"/></center>
 
 ---
 
