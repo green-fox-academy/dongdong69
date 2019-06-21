@@ -4,7 +4,6 @@ def get_loc(postcode):
 
     api  = postcodes_io_api.Api(debug_http=True)
     data = api.get_postcode(postcode)
-    print(data)
     return (data['result']['latitude'], data['result']['longitude'], data['result']['postcode'].split()[0])
 
 
